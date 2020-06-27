@@ -6,4 +6,7 @@ atest-ubuntu
 Docker build dotnet application: docker build -t linoymp/colorapi .
 Docker run dotnet appllication: docker run -p 8080:80 -t linoymp/colorapi
 
+3)
+Docker compose: docker-compose up
+
 

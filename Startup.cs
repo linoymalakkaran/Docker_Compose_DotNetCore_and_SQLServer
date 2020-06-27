@@ -26,10 +26,10 @@ namespace ColourAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var server = Configuration["DBServer"] ?? "localhost";
+            var server = Configuration["DBServer"] ?? "localhost"; 
             var port = Configuration["DBPort"] ?? "1443";
             var user = Configuration["DBUser"] ?? "SA";
-            var password = Configuration["DBPassword"] ?? "Pa$$w0rd2019";
+            var password = Configuration["DBPassword"] ?? "Passw0rd2019";
             var database = Configuration["Database"] ?? "Colors";
 
             services.AddDbContext<ColorContext>(options =>
